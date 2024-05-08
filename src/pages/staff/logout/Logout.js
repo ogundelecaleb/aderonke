@@ -28,8 +28,8 @@ function LogoutModal() {
                 <div
                     id='hoverEffect'
                     className='ps-3 ms-1 d-flex align-items-center rounded gap-2'
-                    style={{ height: "48px", width: "100%", backgroundColor:'#17082d',}}>
-                    <TbLogout2 size='25' style={{ color: "#84818A"}} />
+                    style={{ height: "48px", width: "100%", backgroundColor:'#b30528',}}>
+                    <TbLogout2 size='25' style={{ color: "#fff"}} />
                     Logout
                 </div>
             </CustomLink>

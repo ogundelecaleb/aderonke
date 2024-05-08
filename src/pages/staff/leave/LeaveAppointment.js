@@ -11,7 +11,7 @@ const LeaveAppointment = ({ navigate }) => {
         <HodStaffCard
           label={"My Leave Applications"}
           Icon={<MdPeople size={24} color='#EDF2F7' />}
-          CardBgColor={"#6aa84f"}
+          CardBgColor={"#dc143c"}
           labelColor={"#EDF2F7"}
           IconBorderColor={"#EDF2F7"}
           Action={() => navigate("my-leave-applications")}

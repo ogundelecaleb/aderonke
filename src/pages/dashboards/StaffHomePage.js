@@ -125,7 +125,7 @@ const StaffHomePage = ({ switchRoutes }) => {
           className='col-lg-3 mt-3'
           style={{ border: "1px solid #EFF4F8", borderRadius: 10 }}>
           <div>
-            <div className='mt-4' style={{ color: "#984779" }}>
+            <div className='mt-4' style={{ color: "#dc143c" }}>
               {<Md6K size='25' />}
             </div>
             <p className='fs-4 mt-2 fw-semibold'>{data?.meta?.total}</p>
@@ -144,7 +144,7 @@ const StaffHomePage = ({ switchRoutes }) => {
             <div
               className='mt-4 border rounded-3 d-grid'
               style={{
-                color: "#984779",
+                color: "#dc143c",
                 width: "50px",
                 height: "50px",
                 placeItems: "center",
@@ -192,7 +192,7 @@ const StaffHomePage = ({ switchRoutes }) => {
             to={`personal-records`}>
             <button
               className='btn btn-primary'
-              style={{ backgroundColor: "#984779", border: "none" }}>
+              style={{ backgroundColor: "#dc143c", border: "none" }}>
               Complete Profile
             </button>
           </Link>
@@ -221,7 +221,7 @@ const StaffHomePage = ({ switchRoutes }) => {
           })}
         </div>
         <div className='col-lg-4 ps-5' id='no-padding-res'>
-          <p className='fs-5 mt-5 fw-semibold' style={{ color: "#984779" }}>
+          <p className='fs-5 mt-5 fw-semibold' style={{ color: "#dc143c" }}>
             Upcoming Event
           </p>
           <div>
@@ -237,7 +237,7 @@ const StaffHomePage = ({ switchRoutes }) => {
               <p
                 onClick={switchRoutes}
                 className='text-center mt-5 pt-4'
-                style={{ color: "#984779" }}>
+                style={{ color: "#dc143c" }}>
                 See all Event
               </p>
             </div>

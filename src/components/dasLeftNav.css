@@ -14,13 +14,13 @@ body::-webkit-scrollbar {
   right: 0;
 }
 #active {
-  background-color: #2d1455;
+  background-color: #b30528;
   width: 92%;
   border-radius: 5px;
 }
 .leftNav {
   width: 16.2%;
-  background-color: #17082d;
+  background-color: #dc143c;
   transition: all 0.3s ease-in-out;
   /* position: fixed; */
   top: 0;

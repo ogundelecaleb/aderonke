@@ -621,23 +621,13 @@ const Leave = () => {
                 <option selected>Leave Type</option>
                 <option value='annual-leave'>Annual Leave</option>
                 <option value='casual-leave'>Casual Leave</option>
-                <option value='examination-leave'>Examination Leave</option>
-                <option value='conference-leave'>Conference / Seminar / Workshop Leave</option>
-                <option value='sporting-leave'>Leave for Approved Sporting Events</option>
-                <option value='compassionate-leave'>Compassionate Leave</option>
-                <option value='adoption-leave'>Adoption Leave</option>
+                
                 <option value='sick-leave'>Sick Leave</option>
-                <option value='leave-for-trade'>Leave for Trade Union Conference And Business</option>
                 <option value='maternity-leave'>Maternity Leave</option>
-                <option value='paternity-leave'>Paternity Leave </option>
-                <option value='research-leave'>Research Leave</option>
+
                 <option value='sabbatical-leave'>Sabbatical Leave</option>
-                <option value='study-leave-with-pay'>Study Leave With Pay </option>
-                <option value='short-term-study-leave-with-pay'>Short Term Study Leave With Pay </option>
-                <option value='study-leave-without-pay'>Study Leave Without Pay </option>
-                <option value='training-leave'>Training Leave</option>
+       
                 <option value='leave-of-absence'>Leave of Absence</option>
-                <option value='bereavement-leave'>Bereavement Leave</option>
               </select>
             </div>
 

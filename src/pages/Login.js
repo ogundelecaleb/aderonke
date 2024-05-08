@@ -11,7 +11,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React, { useEffect, useRef, useState } from "react";
-import logo from "../asset/logo(small).svg";
+import logo from "../asset/osustech.png";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import { useSnackbar } from "notistack";
@@ -98,7 +98,7 @@ export default function Login() {
               <div mt={'10'} mb='10'>
                 <Input
                   type='text'
-                  focusBorderColor='#984779'
+                  focusBorderColor='#dc143c'
                   ref={userRef}
                   value={identity} onChange={(e) => setIdentity(e.target.value)}
                   placeholder='Enter Staff ID No'
@@ -107,7 +107,7 @@ export default function Login() {
               </div>
               <div className="relative" display={"flex"} alignItems='center'>
                 <InputGroup mt='4' >
-                  <Input className="relative" display={"flex"} focusBorderColor='#984779' type={open === false ? "password" : "text"} value={password} onChange={(e) => setPassword(e.target.value)}
+                  <Input className="relative" display={"flex"} focusBorderColor='#dc143c' type={open === false ? "password" : "text"} value={password} onChange={(e) => setPassword(e.target.value)}
                     placeholder='Password'
                     required
                   />
@@ -131,7 +131,7 @@ export default function Login() {
                 <Radio>Remember me</Radio>
                 {/* <a href='#'> */}
                 <Link to='reset-password' >
-                  <Text fontSize={"16px"} color={"#984779"}>
+                  <Text fontSize={"16px"} color={"#dc143c"}>
                     Forgot password?
                   </Text>
                 </Link>
@@ -143,7 +143,7 @@ export default function Login() {
                 color={"white"}
                 w='100%'
                 h='12'
-                bg='#572753'
+                bg='#dc143c'
                 borderRadius='lg'
                 disabled={isLoading}>
                 {isLoading ? (
@@ -156,7 +156,7 @@ export default function Login() {
 
           <Box my='5' display={"flex"} w='100%' justifyContent='center' onClick={() => navigate('/register')}>
             <Text>New user?</Text>
-            <Text fontSize={"16px"} color={"#984779"} px='2'>
+            <Text fontSize={"16px"} color={"#dc143c"} px='2'>
               Create Credentials
             </Text>
           </Box>
@@ -170,7 +170,7 @@ export default function Login() {
         alignItems={"center"}
         w={"50vw"}
         h={"100vh"}
-        bg='#17082D'
+        bg='#dc143c'
         display='flex'
         flexDirection='column'
         justifyContent='center'>
